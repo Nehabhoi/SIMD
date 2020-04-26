@@ -15,3 +15,9 @@ https://github.com/rajanjitenpatel/SIMD_Container
 Use AVX intinsics to achieve more than 4X speed up.
   1. Sum of Vector (sum_all.c)
   2. Complex number multiplication (complex.c)
+
+## Compile command:
+	gcc -O3 -mavx -mavx2 sum_all.c
+
+## Resource:
+https://www.codingame.com/playgrounds/283/sse-avx-vectorization/what-is-sse-and-avx
